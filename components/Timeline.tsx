@@ -21,7 +21,7 @@ export default function Timeline(){
                 onClick={() => entry.photo && setActive(active === index ? null : index)}
                 className="w-full text-left rounded-[1.5rem] border border-white/10 bg-card p-6 shadow-glow transition hover:-translate-y-1"
               >
-                <div className="text-xs uppercase tracking-[0.3em] text-[#D6488F] mb-2">{entry.year}</div>
+
                 <div className="text-xl font-semibold text-[#6B2247]">{entry.title}</div>
                 <p className="mt-3 text-[#6B2247]/80 leading-8">{entry.description}</p>
                 {entry.photo && active === index && (
